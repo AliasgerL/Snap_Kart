@@ -54,7 +54,7 @@ const Navbar = ({handleOrderPopup}) => {
   return (
     <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
         <div className='bg-primary/40 py-2'>
-            <div className='container flex justify-between items-center px-16 sm:px-8 md:px-16'>
+            <div className='container flex justify-between items-center px-8 md:px-16 lg:px-16'>
                 <div>
                     <a href="#"
                     className='font-bold text-2xl sm:text-3xl flex gap-2' >
@@ -64,7 +64,7 @@ const Navbar = ({handleOrderPopup}) => {
                 </div>
                 <div className='flex justify-between items-center gap-4'>
 
-                    <div className='relative group hidden:sm:block'>
+                    <div className='relative group hidden md:block lg:block '>
                         <input 
                         type="text" 
                         placeholder="search" 
